@@ -9,7 +9,9 @@
             double distancia;
             int cont = 0, dintre = 0;
             string linia;
-            StreamReader sr = new StreamReader("coordenades.txt");
+            //StreamReader sr = new StreamReader("coordenades.txt");
+            StreamReader sr = new StreamReader(@"..\..\..\..\FITXERS PER RECORREGUTS\coordenades.txt");
+            
             bool local = false; //el girona juga de local
 
             //Demanar el valor del radi a l'usuari

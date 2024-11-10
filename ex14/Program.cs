@@ -7,7 +7,8 @@
             //declaracio de variables
             string linia;
             int acumulador = 0, contBonus = 0, contTotal = 0;
-            StreamReader fitxer = new StreamReader("BONUS2.txt");
+            //StreamReader fitxer = new StreamReader("BONUS2.txt");
+            StreamReader fitxer = new StreamReader(@"..\..\..\..\FITXERS PER RECORREGUTS\BONUS2.txt");
 
             //Demanar primer valor
             linia = fitxer.ReadLine();

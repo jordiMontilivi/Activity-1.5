@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             //Declarar variables
-            StreamReader fitxer = new StreamReader("alumnesDAMDAW.txt");
+            //StreamReader fitxer = new StreamReader("alumnesDAMDAW.txt");
+            StreamReader fitxer = new StreamReader(@"..\..\..\..\FITXERS PER RECORREGUTS\alumnesDAMDAW.txt");
             string linia;
             int contAlex = 0, contIker = 0;
 

@@ -9,7 +9,8 @@
             int acumulador = 0, contBonus= 0, contTotal = 0;
             int valor;
             Random aleatori = new Random();
-            StreamReader fitxer = new StreamReader("bonus.txt");
+            //StreamReader fitxer = new StreamReader("bonus.txt");
+            StreamReader fitxer = new StreamReader(@"..\..\..\..\FITXERS PER RECORREGUTS\bonus.txt");
             
             //Demanar primer valor
             linia = fitxer.ReadLine();
