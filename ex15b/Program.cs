@@ -18,14 +18,14 @@
             //Mentre no final
             while (linia != null)
             {
-                if (cont % 2 == 0)
+                if (cont % 2 == 0)  //juguen com a local
                 {
                     if (local)
                         girona = Convert.ToInt32(linia);
                     else
                         rival = Convert.ToInt32(linia);
                 }
-                else
+                else //juguen com a visitant (final de jornada i invertim de visitant a local el girona)
                 {
                     if (!local)
                         girona = Convert.ToInt32(linia);
