@@ -27,10 +27,10 @@
                 }
                 else
                 {
-                    if (local)
-                        rival = Convert.ToInt32(linia);
-                    else
+                    if (!local)
                         girona = Convert.ToInt32(linia);
+                    else
+                        rival = Convert.ToInt32(linia);
                     if (girona > rival)
                     {
                         guanyats++;
